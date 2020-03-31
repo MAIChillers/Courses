@@ -1,0 +1,46 @@
+\hypertarget{namespaceweather}{}\doxysection{weather Namespace Reference}
+\label{namespaceweather}\index{weather@{weather}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespaceweather_a10bdd26880347bd085b5a4f2855085b1}{get\+\_\+weather}} (city)
+\begin{DoxyCompactList}\small\item\em Получение погоды в формате J\+S\+ON. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespaceweather_acb93300f93f062ba9c115d896c9fd6b4}\label{namespaceweather_acb93300f93f062ba9c115d896c9fd6b4}} 
+def {\bfseries weather\+\_\+json} = \mbox{\hyperlink{namespaceweather_a10bdd26880347bd085b5a4f2855085b1}{get\+\_\+weather}}(sys.\+argv\mbox{[}1\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Вывод погоды в терминал.
+
+\begin{DoxyAuthor}{Authors}
+Аксентьев Артем
+\end{DoxyAuthor}
+Для запуска передать в качестве аргумента название города Документация по A\+PI \href{https://openweathermap.org/current}{\texttt{ https\+://openweathermap.\+org/current}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespaceweather_a10bdd26880347bd085b5a4f2855085b1}\label{namespaceweather_a10bdd26880347bd085b5a4f2855085b1}} 
+\index{weather@{weather}!get\_weather@{get\_weather}}
+\index{get\_weather@{get\_weather}!weather@{weather}}
+\doxysubsubsection{\texorpdfstring{get\_weather()}{get\_weather()}}
+{\footnotesize\ttfamily def weather.\+get\+\_\+weather (\begin{DoxyParamCaption}\item[{}]{city }\end{DoxyParamCaption})}
+
+
+
+Получение погоды в формате J\+S\+ON. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em city} & -\/ наименование города на английском языке \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+данный ключ не работает 
+\end{DoxyWarning}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]сервер нужно подключать через V\+PN \end{DoxyRefDesc}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]передавать ключ как-\/то по другому \end{DoxyRefDesc}
